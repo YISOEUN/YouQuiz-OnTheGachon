@@ -1,4 +1,6 @@
 # YouQuiz-OnTheGachon
+-----------------------
+### purpose
 Web page for academic development of Gachon University students
 -----------------------
 ### Member
