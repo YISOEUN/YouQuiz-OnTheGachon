@@ -1,7 +1,7 @@
 # YouQuiz-OnTheGachon
 -----------------------
 ### purpose
-Web page for academic development of Gachon University students.
+#####Web page for academic development of Gachon University students.
 -----------------------
 ### Member
 - Lee So-Eun
