@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>WebProgramming team project</title>
+    <!-- Google font-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+    <!-- Required Fremwork -->
+    <link rel="stylesheet" type="text/css" href="../../assets/css/bootstrap/css/bootstrap.min.css">
+    <!-- themify-icons line icon -->
+    <link rel="stylesheet" type="text/css" href="../../assets/icon/themify-icons/themify-icons.css">
+    <!-- Style.css -->
+    <link rel="stylesheet" type="text/css" href="../../assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../../assets/css/jquery.mCustomScrollbar.css">
+
+</head>
+
+<body>
+    <!-- Pre-loader start -->
+    <div class="theme-loader">
+        <div class="loader-track">
+            <div class="preloader-wrapper">
+            </div>
+        </div>
+    </div>
+    <!-- Pre-loader end -->
+    <div id="pcoded" class="pcoded">
+        <div class="pcoded-overlay-box"></div>
+        <div class="pcoded-container navbar-wrapper">
+            <nav class="navbar header-navbar pcoded-header">
+                <div class="navbar-wrapper">
+                    <div class="navbar-logo">
+                        <a class="mobile-menu" id="mobile-collapse" href="#!">
+                            <i class="ti-menu"></i>
+                        </a>           
+                        <a href="index.html">
+                            <img class="img-fluid" src="../../assets/images/main/GachonUniversity.png" alt="Theme-Logo" />
+                       </a>                      
+                    </div>
+                    <div class="navbar-container container-fluid">
+                        <ul class="nav-left">
+                            <li>
+                                <div class="sidebar_toggle"><a href="javascript:void(0)"><i class="ti-menu"></i></a></div>
+                            </li>
+                            <li>
+                                <a href="#!" onclick="javascript:toggleFullScreen()">
+                                    <i class="ti-fullscreen"></i>
+                                </a>
+                            </li>
+                        </ul>
+						<!-- SW 언어 선택 버튼 -->
+					    <a class="btn blue" href="../../C/C language.html">C Language</a>
+						<a class="btn blue" href="../../HTML/HTML.html">HTML</a>
+						<a class="btn blue" href="../../Java/JAVA.html">Java</a>
+						<a class="btn blue" href="../JavaScript.html">Javascript</a>
+                    </div>
+                </div>
+            </nav>
+			<!--왼쪽 메뉴간 이동할 수 있는 네이게이터 start!-->
+            <div class="pcoded-main-container">
+                <div class="pcoded-wrapper">
+                    <nav class="pcoded-navbar">
+                        <div class="sidebar_toggle"><a href="#"><i class="icon-close icons"></i></a></div>
+                        <div class="pcoded-inner-navbar main-menu">
+                            <div class="">
+                                <div class="main-menu-header">
+                                    <img class="img-80 img-radius" src="../../assets/images/main/gachonLogo.png" alt="User-Profile-Image"> <!--가천대 로고 넣으면 될듯!-->
+                                    <div class="user-details">
+                                        <span >Gachon quiz website</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pcoded-navigation-label">Home</div>
+                            <ul class="pcoded-item pcoded-left-item">
+                                <li class="">
+                                    <a href="../../index.html">
+                                        <span class="pcoded-micon"><i class="ti-home"></i><b>D</b></span>
+                                        <span class="pcoded-mtext">Home</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="pcoded-navigation-label">C language</div>
+                            <ul class="pcoded-item pcoded-left-item">
+                                <li class="">
+                                    <a href="../../C/C language.html">
+                                        <span class="pcoded-micon"><i class="ti-layers"></i><b>FC</b></span>
+                                        <span class="pcoded-mtext">C language</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="pcoded-navigation-label">HTML</div>
+                            <ul class="pcoded-item pcoded-left-item">
+                                <li class="">
+                                    <a href="../../HTML/HTML.html">
+                                        <span class="pcoded-micon"><i class="ti-layers"></i><b>FC</b></span>
+                                        <span class="pcoded-mtext">HTML</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="pcoded-navigation-label">JAVA</div>
+                            <ul class="pcoded-item pcoded-left-item">
+                                <li class="">
+                                    <a href="../../Java/JAVA.html">
+                                        <span class="pcoded-micon"><i class="ti-receipt"></i><b>B</b></span>
+                                        <span class="pcoded-mtext">JAVA</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="pcoded-navigation-label">JavaScript</div>
+                            <ul class="pcoded-item pcoded-left-item">
+                                <li class="">
+                                    <a href="../JavaScript.html">
+                                        <span class="pcoded-micon"><i class="ti-receipt"></i><b>B</b></span>
+                                        <span class="pcoded-mtext">JavaScript</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                <li class="active">
+                                    <a href="JavaScript-Basic computation.html">
+                                        <span class="pcoded-micon"><i class="ti-receipt"></i><b>B</b></span>
+                                        <span class="pcoded-mtext">Basic computation</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="../Flow of control/JavaScript-Flow of control.html">
+                                        <span class="pcoded-micon"><i class="ti-receipt"></i><b>B</b></span>
+                                        <span class="pcoded-mtext">Flow of control</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="../Array/JavaScript-Array.html">
+                                        <span class="pcoded-micon"><i class="ti-receipt"></i><b>B</b></span>
+                                        <span class="pcoded-mtext">Array</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="../Class/JavaScript-Class.html">
+                                        <span class="pcoded-micon"><i class="ti-receipt"></i><b>B</b></span>
+                                        <span class="pcoded-mtext">Class</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="pcoded-navigation-label">More</div>
+                            <ul class="pcoded-item pcoded-left-item">
+                                <li class="">
+                                    <a href="https://github.com/">
+                                        <span class="pcoded-micon"><i class="ti-bar-chart-alt"></i><b>C</b></span>
+                                        <span class="pcoded-mtext">Github</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="https://desktop.github.com/">
+                                        <span class="pcoded-micon"><i class="ti-map-alt"></i><b>M</b></span>
+                                        <span class="pcoded-mtext">Github Desktop</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="https://www.acmicpc.net/">
+                                        <span class="pcoded-micon"><i class="ti-map-alt"></i><b>M</b></span>
+                                        <span class="pcoded-mtext">Baekjoon Online Judge</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="pcoded-navigation-label">Developer</div>
+                            <ul class="pcoded-item pcoded-left-item">
+                                <li class="">
+                                    <a href="../../Introduction.html">
+                                        <span class="pcoded-micon"><i class="ti-receipt"></i><b>B</b></span>
+                                        <span class="pcoded-mtext">Introduction</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="../../Development schedule.html">
+                                        <span class="pcoded-micon"><i class="ti-receipt"></i><b>B</b></span>
+                                        <span class="pcoded-mtext">Development schedule</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                            </ul>
+						</div>
+                    </nav>
+					<!--왼쪽 메뉴간 이동할 수 있는 네이게이터 end!-->
+
+                    <div class="pcoded-content">
+                        <!-- Page-header start -->
+                        <div class="page-header">
+                            <div class="page-block">
+                                <div class="row align-items-center">
+                                    <div class="col-md-8">
+                                        <div class="page-header-title">
+                                            <h5 class="m-b-10">JavaScript</h5>
+                                            <p class="m-b-0">Basic computation</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                       <!-- Page-header end -->
+                        <div class="pcoded-inner-content">
+                            <!-- Main-body start -->
+                            <div class="main-body">
+                                <div class="page-wrapper">
+                                     <!-- Page body start -->
+                                    <div class="page-body">
+                                        <div class="row">
+                                            <div style="width:95%">
+                                                <div class="card"> <!--문제 들어가는 div!-->
+                                                    <div class="card-header">
+                                                        <h5>Question 13</h5> <!--문제 번호!-->
+                                                    </div>
+                                                    <div class="card-block"> 
+														<div class="form-group form-default"> <!--여기에다가 문제 적고!-->
+																<p>13. What are the disadvantage of JavaScript?</p>
+																	<p>1) Access file or database systems</p>
+																	<p>2) Cannot do networking</p>
+																	<p>3) Replaces images on a page without reloading it</p>
+																	<p>4) Validates forms</p>
+														</div>
+														<div class="form-group form-default"> <!--answer summit button & Q&A mailto button-->
+															<form name="q1">
+																<input type="radio"name="q1"value="v1">1<br>
+																<input type="radio"name="q1"value="v2">2<br>
+																<input type="radio"name="q1"value="v3">3<br>
+																<input type="radio"name="q1"value="v3">4<br>
+																<input type="button" name="choice"value="Confirm correct answer"onclick="myFunction()">
+																<input type="button" action="mailto:dpwls228@naver.com" method="post" value ="FeedBack" onclick = "window.location ='mailto:dpwls228@naver.com'">
+															</form>
+															<p id="check"></p>
+															<script type="text/javascript">
+																function myFunction(){
+																	if(q1.q1[1].checked==true)
+																	document.getElementById("check").innerHTML="correct";
+																	else document.getElementById("check").innerHTML="wrong answer";
+																}
+															</script>
+														</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div style="width:95%">
+                                                <div class="card"><!--index 들어가는 div!-->
+                                                    <div class="card-header">
+                                                        <h5>Index</h5> <!--문제간 이동을 위한 네비게이터!-->
+                                                    </div>
+                                                    <div class="card-block">
+														<button onclick="window.location.href='JavaScript-Basic computation_12.html';">Previous</button>
+														<button onclick="window.location.href='JavaScript-Basic computation_14.html';">Next</button>
+                                                    </div>
+													<div class="card-block">
+                                                        <a href ="JavaScript-Basic computation.html">(01)&nbsp;&nbsp;</a>
+														<a href ="JavaScript-Basic computation_02.html">(02)&nbsp;&nbsp;</a>
+														<a href ="JavaScript-Basic computation_03.html">(03)&nbsp;&nbsp;</a>
+														<a href ="JavaScript-Basic computation_04.html">(04)&nbsp;&nbsp;</a>
+														<a href ="JavaScript-Basic computation_05.html">(05)&nbsp;&nbsp;</a>
+														<a href ="JavaScript-Basic computation_06.html">(06)&nbsp;&nbsp;</a>
+														<a href ="JavaScript-Basic computation_07.html">(07)&nbsp;&nbsp;</a>
+														<a href ="JavaScript-Basic computation_08.html">(08)&nbsp;&nbsp;</a>
+														<a href ="JavaScript-Basic computation_09.html">(09)&nbsp;&nbsp;</a>
+														<a href ="JavaScript-Basic computation_10.html">(10)&nbsp;&nbsp;</a>
+														<a href ="JavaScript-Basic computation_11.html">(11)&nbsp;&nbsp;</a>
+														<a href ="JavaScript-Basic computation_12.html">(12)&nbsp;&nbsp;</a>
+														<a href ="JavaScript-Basic computation_13.html">(13)&nbsp;&nbsp;</a>
+														<a href ="JavaScript-Basic computation_14.html">(14)&nbsp;&nbsp;</a>
+														<a href ="JavaScript-Basic computation_15.html">(15)&nbsp;&nbsp;</a>
+														<a href ="JavaScript-Basic computation_16.html">(16)&nbsp;&nbsp;</a>
+														<a href ="JavaScript-Basic computation_17.html">(17)&nbsp;&nbsp;</a>
+														<a href ="JavaScript-Basic computation_18.html">(18)&nbsp;&nbsp;</a>
+														<a href ="JavaScript-Basic computation_19.html">(19)&nbsp;&nbsp;</a>
+														<a href ="JavaScript-Basic computation_20.html">(20)&nbsp;&nbsp;</a>
+														<a href ="JavaScript-Basic computation_21.html">(21)&nbsp;&nbsp;</a>
+														<a href ="JavaScript-Basic computation_22.html">(22)&nbsp;&nbsp;</a>
+														<a href ="JavaScript-Basic computation_23.html">(23)&nbsp;&nbsp;</a>
+														<a href ="JavaScript-Basic computation_24.html">(24)&nbsp;&nbsp;</a>
+														<a href ="JavaScript-Basic computation_25.html">(25)&nbsp;&nbsp;</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Page body end -->
+                                </div>
+                            </div>
+                            <!-- Main-body end --> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<!-- Required Jquery -->
+    <script type="text/javascript" src="../../assets/js/jquery/jquery.min.js "></script>
+    <script type="text/javascript" src="../../assets/js/jquery-ui/jquery-ui.min.js "></script>
+    <!-- jquery slimscroll js -->
+    <script type="text/javascript" src="../../assets/js/jquery-slimscroll/jquery.slimscroll.js"></script>
+
+    <!-- Custom js -->
+    <script src="../../assets/js/pcoded.min.js"></script>
+    <script src="../../assets/js/vertical/vertical-layout.min.js"></script>
+    <script src="../../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script type="text/javascript" src="../../assets/js/script.js"></script>
+</body>
+
+</html>

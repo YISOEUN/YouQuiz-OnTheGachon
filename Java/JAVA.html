@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>WebProgramming team project</title>
+
+    <!-- Google font-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+    <!-- Required Fremwork -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap/css/bootstrap.min.css">
+    <!-- themify-icons line icon -->
+    <link rel="stylesheet" type="text/css" href="../assets/icon/themify-icons/themify-icons.css">
+    <!-- Style.css -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/jquery.mCustomScrollbar.css">
+
+</head>
+
+<body>
+      <!-- Pre-loader start -->
+    <div class="theme-loader">
+        <div class="loader-track">
+            <div class="preloader-wrapper">
+            </div>
+        </div>
+    </div>
+    <!-- Pre-loader end -->
+    <div id="pcoded" class="pcoded">
+        <div class="pcoded-container navbar-wrapper">
+            <nav class="navbar header-navbar pcoded-header">
+                <div class="navbar-wrapper">
+                    <div class="navbar-logo">
+                        <a class="mobile-menu" id="mobile-collapse" href="#!">
+                            <i class="ti-menu"></i>
+                        </a>           
+                        <a href="../index.html">
+                            <img class="img-fluid" src="../assets/images/main/GachonUniversity.png" alt="Theme-Logo" />
+                       </a>                      
+                    </div>
+                    <div class="navbar-container container-fluid">
+							<!-- SW 언어 선택 버튼 -->
+					    <a class="btn blue" href="../C/C language.html">C Language</a>
+						<a class="btn blue" href="../HTML/HTML.html">HTML</a>
+						<a class="btn blue" href="JAVA.html">Java</a>
+						<a class="btn blue" href="../JavaScript/JavaScript.html">Javascript</a>
+                    </div>
+                </div>
+            </nav>
+			<!--왼쪽 메뉴간 이동할 수 있는 네이게이터 start!-->
+            <div class="pcoded-main-container">
+                <div class="pcoded-wrapper">
+                    <nav class="pcoded-navbar">
+                        <div class="pcoded-inner-navbar main-menu">
+                            <div>
+                                <div class="main-menu-header">
+                                    <img class="img-80 img-radius" src="../assets/images/main/gachonLogo.png" alt="User-Profile-Image"> <!--가천대 로고 넣으면 될듯!-->
+                                    <div class="user-details">
+                                        <span >Gachon quiz website</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pcoded-navigation-label">Home</div>
+                            <ul class="pcoded-item pcoded-left-item">
+                                <li class="">
+                                    <a href="../index.html">
+                                        <span class="pcoded-micon"><i class="ti-home"></i><b>D</b></span>
+                                        <span class="pcoded-mtext">Home</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="pcoded-navigation-label">C language</div>
+                            <ul class="pcoded-item pcoded-left-item">
+                                <li class="">
+                                    <a href="../C/C language.html">
+                                        <span class="pcoded-micon"><i class="ti-layers"></i><b>FC</b></span>
+                                        <span class="pcoded-mtext">C language</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="pcoded-navigation-label">HTML</div>
+                            <ul class="pcoded-item pcoded-left-item">
+                                <li class="">
+                                    <a href="../HTML/HTML.html">
+                                        <span class="pcoded-micon"><i class="ti-layers"></i><b>FC</b></span>
+                                        <span class="pcoded-mtext">HTML</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="pcoded-navigation-label">JAVA</div>
+                            <ul class="pcoded-item pcoded-left-item">
+                                <li class="active">
+                                    <a href="JAVA.html">
+                                        <span class="pcoded-micon"><i class="ti-receipt"></i><b>B</b></span>
+                                        <span class="pcoded-mtext">JAVA</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="Basic computation/JAVA-Basic computation.html">
+                                        <span class="pcoded-micon"><i class="ti-receipt"></i><b>B</b></span>
+                                        <span class="pcoded-mtext">Basic computation</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="Flow of control/JAVA-Flow of control.html">
+                                        <span class="pcoded-micon"><i class="ti-receipt"></i><b>B</b></span>
+                                        <span class="pcoded-mtext">Flow of control</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="Array/JAVA-Array.html">
+                                        <span class="pcoded-micon"><i class="ti-receipt"></i><b>B</b></span>
+                                        <span class="pcoded-mtext">Array</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="Class/JAVA-Class.html">
+                                        <span class="pcoded-micon"><i class="ti-receipt"></i><b>B</b></span>
+                                        <span class="pcoded-mtext">Class</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="Inheritance/JAVA-Inheritance.html">
+                                        <span class="pcoded-micon"><i class="ti-receipt"></i><b>B</b></span>
+                                        <span class="pcoded-mtext">Inheritance</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="pcoded-navigation-label">JavaScript</div>
+                            <ul class="pcoded-item pcoded-left-item">
+                                <li class="">
+                                    <a href="../JavaScript/JavaScript.html">
+                                        <span class="pcoded-micon"><i class="ti-receipt"></i><b>B</b></span>
+                                        <span class="pcoded-mtext">JavaScript</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="pcoded-navigation-label">More</div>
+                            <ul class="pcoded-item pcoded-left-item">
+                                <li class="">
+                                    <a href="https://github.com/">
+                                        <span class="pcoded-micon"><i class="ti-bar-chart-alt"></i><b>C</b></span>
+                                        <span class="pcoded-mtext">Github</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="https://desktop.github.com/">
+                                        <span class="pcoded-micon"><i class="ti-map-alt"></i><b>M</b></span>
+                                        <span class="pcoded-mtext">Github Desktop</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="https://www.acmicpc.net/">
+                                        <span class="pcoded-micon"><i class="ti-map-alt"></i><b>M</b></span>
+                                        <span class="pcoded-mtext">Baekjoon Online Judge</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="pcoded-navigation-label">Developer</div>
+                            <ul class="pcoded-item pcoded-left-item">
+                                <li class="">
+                                    <a href="../Introduction.html">
+                                        <span class="pcoded-micon"><i class="ti-receipt"></i><b>B</b></span>
+                                        <span class="pcoded-mtext">Introduction</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="../Development schedule.html">
+                                        <span class="pcoded-micon"><i class="ti-receipt"></i><b>B</b></span>
+                                        <span class="pcoded-mtext">Development schedule</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                    </nav>
+					<!--왼쪽 메뉴간 이동할 수 있는 네이게이터 end!-->
+                    <div class="pcoded-content">
+                        <!-- Page-header start -->
+                        <div class="page-header">
+                            <div class="page-block">
+                                <div class="row align-items-center">
+                                    <div class="col-md-8">
+                                        <div class="page-header-title">
+                                            <h5 class="m-b-10">JAVA</h5>
+                                            <p class="m-b-0">JAVA</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Page-header end -->
+                        <div class="pcoded-inner-content">
+                            <!-- Main-body start -->
+                            <div class="main-body">
+                                <div class="page-wrapper">
+                                  <!-- Page body start -->
+                                    <div class="page-body">
+									<h3 align ="center"> Welcome to Java page!</h3>
+									<p class ="middleTittle" align = "center"> This page helps you gain knowledge before taking the JavaScript quiz.<br>
+									 Please read this page carefully before taking the quiz, and all the quiz questions will be given in this page. </p><br>
+									    <!--Index anchor-->
+									     <div style = "margin: auto;" id ="card0">
+                                            <div class="card">
+                                                <div class="card-header">
+                                                    <h5>Java Index</h5>  
+                                                </div>
+                                                <div class="card-block">
+													<a href ="#card0">0. Index</a><br>
+													<a href ="#card1">1. Java</a><br>
+													<a href ="#card2">2. script tag </a><br>
+													<a href ="#card3">3. semi - colon ; </a><br>
+													<a href ="#card4">4. comments</a><br>
+													<a href ="#card5">5. Debugging JavaScript </a><br>
+													<a href ="#card6">6. pros and cons  </a><br>
+													<a href ="#card7">7. javascript vs java(applet) </a><br>
+													<a href ="#card8">8. JavaScript Variables</a><br>
+													<a href ="#card9">9. Data types</a><br>
+													<a href ="#card10">10. Expression </a><br>
+													<a href ="#card11">11. string object </a><br>
+													<a href ="#card12">12. bitwise operators</a><br>
+													<a href ="#card13">13. operator precedence </a><br>
+													<a href ="#card14">14. Built in Functions </a><br>
+													<a href ="#card15">15. if statement</a><br>
+													<a href ="#card16">16. switch/case statement</a><br>
+													<a href ="#card17">17. for statement</a><br>
+													<a href ="#card18">18. for/in statement </a><br>
+													<a href ="#card19">19. while statement</a><br>
+													<a href ="#card20">20. do/while statement </a><br>
+													<a href ="#card21">21. Functions</a><br>
+													<a href ="#card22">22. Built-in global Functions</a><br>
+													<a href ="#card23">23. string의 여러 property</a><br>
+													<a href ="#card24">24. Object overview</a><br>
+													<a href ="#card25">25. javascript objects</a><br>
+													<a href ="#card26">26. javascript variables VS objects</a><br>
+													<a href ="#card27">27. Date objects</a><br>
+													<a href ="#card28">28. Math object </a><br>
+													<a href ="#card29">29. Global properties and functions</a><br>
+													<a href ="#card30">30. Browser object </a><br>
+                                                </div>
+                                            </div>
+                                        </div>
+									</div>
+											<!--Start contnet-->
+									<div style = "margin: auto;" id ="card1">
+										<div class="card">
+											<div class="card-header">
+												<h5>1. Java script( 내용을 기록하는 언어 ) and the web</h5>
+											</div>
+										<div class="card-block">
+											<xmp>① HTML : 브라우저에 내용을 보고싶을 때 어떻게 보이는지 말해주는 언어
+② javascript : dynamic and interactive
+: 문서의 contents, form , animation 등을 바꿀 수 있다.
+③ scripting( 기록하는 ) language
+: 웹 브라우저에 담겨있는 interpreter에 의해 실행된다. 
+④ Interpreter
+: interpret = compile
+컴퓨터가 알아들을 수 있는 말로 바꾸는 작업
+.cpp → .obj로 바뀌는 작업이 컴파일
+.obj → .exe(최종)로 바뀌는 작업이 빌드
+interpret은 속도가 오래 걸리기에 자주 사용하지는 않는다.
+java script는 속도가 빠를 필요가 없기에 interpret을 사용한다.
+각각의 code를 실행할 수 있는 방식으로 변환한다.
+⑤ HTML and JavaScript : 
+cient가 요청하면 html파일을 해석해서 화면에 보여준다. 
+html은 script를 안에 품고 있다.
+⑥ JavaScript( 대표적인 언어 )
+ex )  C, Java, PHP, etc.
+												</xmp>
+											</div>
+										</div>
+									</div>
+									<div style = "margin: auto;" id ="card2">
+										<div class="card">
+											<div class="card-header">
+												<h5>2. &lt;script&gt; tag : <br>can be placed either within the &lt;head&gt; or &lt;body&gt;</h5>
+											</div>
+											<div class="card-block">
+												<xmp>① external javascript : <script src=“your_source.js”></script> 
+* script tag를 사용하여 가져와서 <script>elelment는 중복되면 안된다.
+② internal javascript:<script type=“text/javascript”> … </script> 
+③ <script> attributes 
+												</xmp>
+											</div>
+										</div>
+									</div>
+									 <div style = "margin: auto;" id ="card3">
+										<div class="card">
+											<div class="card-header">
+												<h5>3. semi ? colon ;</h5>
+											</div>
+											<div class="card-block">
+												<xmp>① Semi?colon (;) at the end of a line is not mandatory in JavaScript
+② 두 개 이상의 말을 한 줄에 적고자 할 때 ;이 필요하다.
+ex ) x=10; y=5; z=0; 
+</xmp>
+											</div>
+										</div>
+									</div>
+									 <div style = "margin: auto;" id ="card4">
+										<div class="card">
+											<div class="card-header">
+												<h5>4. comments</h5>
+											</div>
+											<div class="card-block">
+												<xmp>① // Single?line comment 
+② /* Multi?line comment */
+</xmp>
+											</div>
+										</div>
+									</div>
+									 <div style = "margin: auto;" id ="card5">
+										<div class="card">
+											<div class="card-header">
+												<h5>5. Debugging JavaScript</h5>
+											</div>
+											<div class="card-block">
+												<xmp>- 잘못을 고쳐내는 작업이 디버깅</xmp>
+											</div>
+										</div>
+									</div>
+									 <div style = "margin: auto;" id ="card6">
+										<div class="card">
+											<div class="card-header">
+												<h5>6. pros and cons</h5>
+											</div>
+											<div class="card-block">
+												<xmp>- 웹사이트의 ui를 개선
+- 사람들이 웹사이트를 좀 더 쉽게 볼 수 있도록 한다.
+- 팝업 창을 만들기가 쉽다.
+- 입력하지 않아도 자동적으로 바꾸어준다.
+- form을 validate한다.
+: cons
+- 파일이나 데이터베이스에 접속할 수 없다.
+- cannot do networking</xmp>
+											</div>
+										</div>
+									</div>
+									 <div style = "margin: auto;" id ="card7">
+										<div class="card">
+											<div class="card-header">
+												<h5>7. javascript vs java(applet)</h5>
+											</div>
+											<div class="card-block">
+												<xmp>① javascript 
+- html안에 포함되어 있다.
+- 웹페이지에 특화되어있다.
+- java(applet)보다 간단하다.
+- interpret 방식으로 번역을 한다.
+- client에게서 실행이 된다. ( client에서 번역하고 해석 ) 
+② java(applet)
+- 다운로드 받아야 실행이 된다.
+- 범용적이다.
+- 컴파일러 방식으로 번역을 한다.
+- client에게서 실행이 된다. ( client에서 번역하고 해석 ) 
+
+※ document.write( )의 “ ” 안에는 html 코드를 적어준다.
+</xmp>
+											</div>
+										</div>
+									</div>
+									 <div style = "margin: auto;" id ="card8">
+										<div class="card">
+											<div class="card-header">
+												<h5>8. JavaScript Variables</h5>
+											</div>
+											<div class="card-block">
+												<xmp>① using variables
+- Declare and assign a value ( 초기값을 설정해주어야 한다 )
+- Keyword varis not mandatory 
+② Variable names 
+- Use a?z, A?Z, 0?9, $, _ 
+- Spaces, symbols are not allowed
+③ Variables are case?sensitive ( 대/소문자를 구별한다 )
+
+</xmp>
+											</div>
+										</div>
+									</div>
+									 <div style = "margin: auto;" id ="card9">
+										<div class="card">
+											<div class="card-header">
+												<h5>9. Data types</h5>
+											</div>
+											<div class="card-block">
+												<xmp>① java script는‘int,‘float’과 같이 data type을 선언할 필요가 없다.
+* special data types 
+- NULL : 비어있는 상태이지만 null이라는 값이 지정된 상태
+- Undefined : 변수는 만들어져있으나 값이 지정되지 않은 상태
+
+② Boolean type : 값이 논리적으로 참인지 거짓인지 판별한다.
+③ String type
+* javascript는 c언어와 다르게 하나의 문자만 저장하는 char가 없다.
+④ Object
+- 어떠한 기능을 가진 것을 의미한다.
+- 모든 object는 property를 가진다.
+ex ) 자동차가 object라면 색,차종 등이 property
+⑤ Array object
+- 가상의 object = "new"
+- [5]가 아닌 (5)로 표시
+- javjascript는 array의 length를 지정하지 않아도 된다.
+⑥ typeof operator
+- 지정된 변수의 type이 무엇인지 알게 해준다.
+⑦ special characters
+</xmp>
+											</div>
+										</div>
+									</div>
+									 <div style = "margin: auto;" id ="card10">
+										<div class="card">
+											<div class="card-header">
+												<h5>10. Expression </h5>
+											</div>
+											<div class="card-block">
+												<xmp>① Arithmetic operators 
+- binary
+-unary
+ex ) ++count , count++
+② Assignment operators
+③ comparison operators             
+ex) 
+var currentword = “75”;
+var currentvalue = 75;
+var outcome1 = ( currentword == currentvalue ) ;
+var outcome2 = ( currentword === currentvalue ) ;
+outcome1 = true ( 두 개의 모양이 같기 때문에 ) 
+outcome2 = false ( 두 개의 모양은 같으나 의미가 다르기 때문에 )
+* ===이 c언어에서 ==와 동일하다.
+④ Logical operators
+ex ) && , || , !
+⑤ string concatenation operator : +
+“one” + “two” + “three” → “one two three”
+⑥ string assignment operater : (+=)
+var onestring = “one”;
+onestring += “two three”;
+we get onestring = “one two three”
+</xmp>
+											</div>
+										</div>
+									</div>
+									 <div style = "margin: auto;" id ="card11">
+										<div class="card">
+											<div class="card-header">
+												<h5>11. string object </h5>
+											</div>
+											<div class="card-block">
+												<xmp>① “ ”안에 존재하면 더 이상 태그가 아니다. 
+ex ) “<p>”는 하나의 문자가 된다.
+② property와 method가 존재한다.
+③ length : string의 길이 / substr() : extracts a substring
+? property              ? method
+</xmp>
+											</div>
+										</div>
+									</div>
+									 <div style = "margin: auto;" id ="card12">
+										<div class="card">
+											<div class="card-header">
+												<h5>12. bitwise operators</h5>
+											</div>
+											<div class="card-block">
+												<img src="../assets/images/javascript/bitwise.jpg" alt = "bitwise picture" width ="350">
+											</div>
+										</div>
+									</div>
+									<div  style = "margin: auto;" id ="card13">
+										<div class="card">
+											<div class="card-header">
+												<h5>13. operator precedence </h5>
+											</div>
+											<div class="card-block">
+												<xmp></xmp>
+											</div>
+										</div>
+									</div>
+									 <div style = "margin: auto;" id ="card14">
+										<div class="card">
+											<div class="card-header">
+												<h5>14. Built in Functions <br>( java에서 기본적으로 제공하는 함수 ) </h5>
+											</div>
+											<div class="card-block">
+												<xmp>① alert() method
+② confirm() method: 사용자가 확인과 취소를 선택하도록 알림을 띄워
+③ prompt() method: 사용자가 답을 적을 수 있도록 해, 초기값 지정가능
+④ console.log() method: 브라우저가 아닌 디버깅 용으로 콘솔 창에 띄움
+</xmp>
+											</div>
+										</div>
+									</div>
+									 <div style = "margin: auto;" id ="card15">
+										<div class="card">
+											<div class="card-header">
+												<h5>15. if statement</h5>
+											</div>
+											<div class="card-block">
+												<xmp>① if(조건){문장;}의 형식
+② if는 소문자로만 적는다.
+③ 조건은 논리적으로 참/거짓 값이어야 한다.
+④ 조건이 참이면 문장이 실행이 된다.
+</xmp>
+											</div>
+										</div>
+									</div>
+									 <div style = "margin: auto;" id ="card16">
+										<div class="card">
+											<div class="card-header">
+												<h5>16. switch/case statement</h5>
+											</div>
+											<div class="card-block">
+												<xmp>ex ) switch(expression){
+case label1 :
+   statements-1;break;
+....
+defalult:
+   statements;
+</xmp>
+											</div>
+										</div>
+									</div>
+									 <div style = "margin: auto;" id ="card17">
+										<div class="card">
+											<div class="card-header">
+												<h5>17. for statement</h5>
+											</div>
+											<div class="card-block">
+												<xmp>ex ) for(i=0;i<5;i++){
+statements;
+}
+</xmp>
+											</div>
+										</div>
+									</div>
+									 <div style = "margin: auto;" id ="card18">
+										<div class="card">
+											<div class="card-header">
+												<h5>18. for/in statement </h5>
+											</div>
+											<div class="card-block">
+												<xmp>ex ) for(counter in object) {
+statements;
+}
+* 개수를 다 할 때까지 반복문을 실행하는 데 
+보통은 object의 길이까지 진행한다.
+* array를 이용하여 반복의 횟수를 지정하게 된다.
+
+</xmp>
+											</div>
+										</div>
+									</div>
+									 <div style = "margin: auto;" id ="card19">
+										<div class="card">
+											<div class="card-header">
+												<h5>19. while statement</h5>
+											</div>
+											<div class="card-block">
+												<xmp>ex ) while(condition){
+statement;
+increment/decrement_statement;
+}
+</xmp>
+											</div>
+										</div>
+									</div>
+									 <div style = "margin: auto;" id ="card20">
+										<div class="card">
+											<div class="card-header">
+												<h5>20. do/while statement</h5>
+											</div>
+											<div class="card-block">
+											<xmp>ex ) do{
+statements;
+increment/decrement_statement;  → do는 무조건 실행
+} while(condition);
+</xmp>
+											</div>
+										</div>
+									</div>
+									 <div style = "margin: auto;" id ="card21">
+										<div class="card">
+											<div class="card-header">
+												<h5>21. Functions</h5>
+											</div>
+											<div class="card-block">
+												<xmp>* 함수는 name / parameters / return value가 필요하다
+① User-defined function( 함수를 정의 ) * 정의는 head안에 위치
+② Function call * function call은 body안에 위치
+</xmp>
+											</div>
+										</div>
+									</div>
+									 <div style = "margin: auto;" id ="card22">
+										<div class="card">
+											<div class="card-header">
+												<h5>22. Built-in global Functions(이미 만들어진 함수)</h5>
+											</div>
+											<div class="card-block">
+												<xmp>① isNAN(value) : 숫자가 아니다
+숫자면 false, 숫자가 아니면 true!
+② parseInt(string,radix) : 문자를 숫자(정수)로 바꿔준다.
+* radix = 진수 
+(ex)16진수 - 첨두어 ‘ox’를 두기도 한다, 2진수, 10진수(기본값)
+* 10.33의 경우 10으로 반환
+* 맨 처음 수만 정수로 변환해준다. 
+* 맨 처음에 수가 존재하지 않는 경우 NAN이 출력된다.
+③ parseFloat(object) 
+④ Number(object) : object의 value들을 숫자로 바꿔준다.
+⑤ String(object)
+</xmp>
+											</div>
+										</div>
+									</div>
+									 <div style = "margin: auto;" id ="card23">
+										<div class="card">
+											<div class="card-header">
+												<h5>23. string의 여러 property</h5>
+											</div>
+											<div class="card-block">
+												<xmp>① string.length: 문자열의 길이 출력
+② string.charAt(n): 
+문자열을 배열로 저장 후 n번째에 해당하는 문자 출력
+③ string.concat(string1,string2): 
+두 개의 문자열을 합쳐서 출력
+④ string.indexOf(substring): 
+입력한 문자가 가장 처음 나오는 위치를 출력
+* 해당하는 문자가 없을 경우 -1 출력
+⑤ string.substr(start,length): 
+입력한 시작 위치부터 해당하는 길이만큼 출력
+⑥ string.toUppercase(): 입력한 문자열을 대문자로 출력
+⑦ string.toLowercase(): 입력한 문자열을 소문자로 출력
+</xmp>
+											</div>
+										</div>
+									</div>
+									 <div style = "margin: auto;" id ="card24">
+										<div class="card">
+											<div class="card-header">
+												<h5>24. Object overview</h5>
+											</div>
+											<div class="card-block">
+												<xmp>① OOP(object oriented programming) : 
+object를 가지고 프로그래밍을 짜는 것
+*c언어는 예약어를 가지고 프로그래밍을 한다. object는 그것의 상위개념
+( 즉, 무엇인가를 만들기 위해 도구들을 가지고 있는 집합체 같은 개념 )
+- property(변수로 지정된 어떤 값)와 method(기능)를 가지고 있다.
+② object의 개념 : array를 이용하여 불러온다
+ex ) var A = [“apple”,“banana”,“mango”,“orange”];
+? A[0] = “apple”
+③ index대신에 property를 이용하기도 한다(data에 접근하기 위해서)
+* println : document.write 와 <br> 두 기능을 모두 가지고 있다.
+</xmp>
+											</div>
+										</div>
+									</div>
+									 <div style = "margin: auto;" id ="card25">
+										<div class="card">
+											<div class="card-header">
+												<h5>25. javascript objects</h5>
+											</div>
+											<div class="card-block">
+												<xmp>① String objects(S가 대문자여야 object이다)
+- new를 이용하여 새로운 것을 만들어
+* javascript는 html안에 둘러싸인 string을 반환할 수 있다(하지만 표준은 아니다)
+② Boolean objects
+- var myBoolean= new Boolean(true);  
+- method : toString(), valueOf() → 스트링을 값(0,1)으로 바꾸어줘
+	  ? 값을 스트링(“true”)으로 바꾸어줘
+③ Number objects(하나의 숫자 object)
+- var num= new Number(value);
+- method :  </xmp>
+<img src="../assets/images/javascript/jsmethod.jpg" alt = "jsmethod picture" width ="350">
+<xmp>- property :  </xmp>
+<img src="../assets/images/javascript/jsproperty.jpg" alt = "jsproperty picture" width ="350">
+											</div>
+										</div>
+									</div>
+									 <div style = "margin: auto;" id ="card26">
+										<div class="card">
+											<div class="card-header">
+												<h5>26. javascript variables VS objects</h5>
+											</div>
+											<div class="card-block">
+												<img src="../assets/images/javascript/jsobject.jpg" alt = "jsobject picture" width ="350">
+												<xmp>* 대문자로 적어주면 object이다</xmp>
+											</div>
+										</div>
+									</div>
+									 <div style = "margin: auto;" id ="card27">
+										<div class="card">
+											<div class="card-header">
+												<h5>27. Date objects(현재의 시간을 가져온다)</h5>
+											</div>
+											<div class="card-block">
+												<img src="../assets/images/javascript/jsdate.jpg" alt = "jsdate picture" width ="350">
+												<xmp>* set은 날짜를 변경할 때
+* get은 날짜를 가져올 때
+</xmp>
+											</div>
+										</div>
+									</div>
+									 <div style = "margin: auto;" id ="card28">
+										<div class="card">
+											<div class="card-header">
+												<h5>28. Math object(c에서 math.h와 유사)</h5>
+											</div>
+											<div class="card-block">
+												<xmp>ex ) Math.min(0, 150, 30, 20, -8, -120) = -200
+Math.round(4.7) = 5 (4.7과 가장 가까운 정수를 보여준다)
+Math.ceil(4.4) = 5
+Math.floor(4.7) = 4
+</xmp>
+											</div>
+										</div>
+									</div>
+									 <div style = "margin: auto;" id ="card29">
+										<div class="card">
+											<div class="card-header">
+												<h5>29. Global properties and functions<br>(object없이 쓸 수 있는 것을 global이라 한다)</h5>
+											</div>
+											<div class="card-block">
+												<xmp>- Global properties : Infinity , NaN  , undefined
+- Global functions: eval(), isFinite(), isNaN(), 
+			Number(), parseFloat(), ParseInt()
+* 보통 object를 사용하면 object.method 이런 형태, 위의 것들은 아니다
+</xmp>
+											</div>
+										</div>
+									</div>
+									 <div style = "margin: auto;" id ="card30">
+										<div class="card">
+											<div class="card-header">
+												<h5>30. Browser object : <br>Allows JavaScript to “talk to” the browser</h5>
+											</div>
+											<div class="card-block">
+												<xmp>- 브라우저 창을 열면 window object 하나가 자동으로 만들어진다.
+- 무조건 생기기 때문에 생략해도 상관이 없다.
+* window.open은 새로 만들어진 window 안에 open이라는 method이다.
+* 함수여서 return value 있고 그것은 새로 만들어진 window의 고유한 값.
+* mywindow가 새로 만들어진 window의 고유한 값을 가지고 있어 !NULL이다.
+* mywindow.close(mywindow)= 새로 만들어진 mywindow(고유한 값) 닫음.
+② Screen object : window안의 화면을 표시한다.
+- height: screen의 total height
+- availHeight: window taskbar(그리거나 쓰지 않는 부분)제외한 height
+③ Location object : 어디를 보고 있는지 알려준다
+println(location.href) = 현재 내 주소를 출력한다.
+④ History object 
+기록을 알려준다
+⑤ Navigator object: browser에 대한 정보를 가지고 있다.
+</xmp>
+											</div>
+										</div>
+									</div>
+                                    <!-- Page body end -->
+                                </div>
+                            </div>
+                            <!-- Main-body end -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<!-- Required Jquery -->
+    <script type="text/javascript" src="../assets/js/jquery/jquery.min.js "></script>
+    <script type="text/javascript" src="../assets/js/jquery-ui/jquery-ui.min.js "></script>
+    <!-- jquery slimscroll js -->
+    <script type="text/javascript" src="../assets/js/jquery-slimscroll/jquery.slimscroll.js"></script>
+
+    <!-- Custom js -->
+    <script src="../assets/js/pcoded.min.js"></script>
+    <script src="../assets/js/vertical/vertical-layout.min.js"></script>
+    <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script type="text/javascript" src="../assets/js/script.js"></script>
+</body>
+
+</html>

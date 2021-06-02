@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>WebProgramming team project</title>
+    
+    <!-- Google font-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+    <!-- Required Fremwork -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap/css/bootstrap.min.css">
+    <!-- themify-icons line icon -->
+    <link rel="stylesheet" type="text/css" href="../assets/icon/themify-icons/themify-icons.css">
+    <!-- Style.css -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/jquery.mCustomScrollbar.css">
+
+</head>
+
+<body>
+  <!-- Pre-loader start -->
+    <div class="theme-loader">
+        <div class="loader-track">
+            <div class="preloader-wrapper">
+            </div>
+        </div>
+    </div>
+    <!-- Pre-loader end -->
+    <div id="pcoded" class="pcoded">
+        <div class="pcoded-container navbar-wrapper">
+            <nav class="navbar header-navbar pcoded-header">
+                <div class="navbar-wrapper">
+                    <div class="navbar-logo">
+                        <a class="mobile-menu" id="mobile-collapse" href="#!">
+                            <i class="ti-menu"></i>
+                        </a>           
+                        <a href="../index.html">
+                            <img class="img-fluid" src="../assets/images/main/GachonUniversity.png" alt="Theme-Logo" />
+                       </a>                      
+                    </div>
+                    <div class="navbar-container container-fluid">
+							<!-- SW 언어 선택 버튼 -->
+					    <a class="btn blue" href="../C/C language.html">C Language</a>
+						<a class="btn blue" href="HTML.html">HTML</a>
+						<a class="btn blue" href="../Java/JAVA.html">Java</a>
+						<a class="btn blue" href="../JavaScript/JavaScript.html">Javascript</a>
+                    </div>
+                </div>
+            </nav>
+			<!--왼쪽 메뉴간 이동할 수 있는 네이게이터 start!-->
+            <div class="pcoded-main-container">
+                <div class="pcoded-wrapper">
+                    <nav class="pcoded-navbar">
+                        <div class="pcoded-inner-navbar main-menu">
+                            <div class="">
+                                <div class="main-menu-header">
+                                    <img class="img-80 img-radius" src="../assets/images/main/gachonLogo.png" alt="User-Profile-Image"> <!--가천대 로고 넣으면 될듯!-->
+                                    <div class="user-details">
+                                        <span >Gachon quiz website</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pcoded-navigation-label">Home</div>
+                            <ul class="pcoded-item pcoded-left-item">
+                                <li class="">
+                                    <a href="../index.html">
+                                        <span class="pcoded-micon"><i class="ti-home"></i><b>D</b></span>
+                                        <span class="pcoded-mtext">Home</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="pcoded-navigation-label">C language</div>
+                            <ul class="pcoded-item pcoded-left-item">
+                                <li class="">
+                                    <a href="../C/C language.html">
+                                        <span class="pcoded-micon"><i class="ti-layers"></i><b>FC</b></span>
+                                        <span class="pcoded-mtext">C language</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="pcoded-navigation-label">HTML</div>
+                            <ul class="pcoded-item pcoded-left-item">
+                                <li class="active">
+                                    <a href="HTML.html">
+                                        <span class="pcoded-micon"><i class="ti-layers"></i><b>FC</b></span>
+                                        <span class="pcoded-mtext">HTML</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="Basic/HTML-Basic tag.html">
+                                        <span class="pcoded-micon"><i class="ti-layers"></i><b>FC</b></span>
+                                        <span class="pcoded-mtext">Basic tag</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="Img input/HTML-Img input.html">
+                                        <span class="pcoded-micon"><i class="ti-layers"></i><b>FC</b></span>
+                                        <span class="pcoded-mtext">Img input</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="CSS/HTML-CSS.html">
+                                        <span class="pcoded-micon"><i class="ti-layers"></i><b>FC</b></span>
+                                        <span class="pcoded-mtext">CSS</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="pcoded-navigation-label">JAVA</div>
+                            <ul class="pcoded-item pcoded-left-item">
+                                <li class="">
+                                    <a href="../Java/JAVA.html">
+                                        <span class="pcoded-micon"><i class="ti-receipt"></i><b>B</b></span>
+                                        <span class="pcoded-mtext">JAVA</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="pcoded-navigation-label">JavaScript</div>
+                            <ul class="pcoded-item pcoded-left-item">
+                                <li class="">
+                                    <a href="../JavaScript/JavaScript.html">
+                                        <span class="pcoded-micon"><i class="ti-receipt"></i><b>B</b></span>
+                                        <span class="pcoded-mtext">Javascript</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="pcoded-navigation-label">More</div>
+                            <ul class="pcoded-item pcoded-left-item">
+                                <li class="">
+                                    <a href="https://github.com/">
+                                        <span class="pcoded-micon"><i class="ti-bar-chart-alt"></i><b>C</b></span>
+                                        <span class="pcoded-mtext">Github</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="https://desktop.github.com/">
+                                        <span class="pcoded-micon"><i class="ti-map-alt"></i><b>M</b></span>
+                                        <span class="pcoded-mtext">Github Desktop</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="https://www.acmicpc.net/">
+                                        <span class="pcoded-micon"><i class="ti-map-alt"></i><b>M</b></span>
+                                        <span class="pcoded-mtext">Baekjoon Online Judge</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="pcoded-navigation-label">Developer</div>
+                            <ul class="pcoded-item pcoded-left-item">
+                                <li class="">
+                                    <a href="../Introduction.html">
+                                        <span class="pcoded-micon"><i class="ti-receipt"></i><b>B</b></span>
+                                        <span class="pcoded-mtext">Introduction</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="../Development schedule.html">
+                                        <span class="pcoded-micon"><i class="ti-receipt"></i><b>B</b></span>
+                                        <span class="pcoded-mtext">Development schedule</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                            </ul>
+						</div>
+                    </nav>
+					<!--왼쪽 메뉴간 이동할 수 있는 네이게이터 end!-->
+                    <div class="pcoded-content">
+                        <!-- Page-header start -->
+                        <div class="page-header">
+                            <div class="page-block">
+                                <div class="row align-items-center">
+                                    <div class="col-md-8">
+                                        <div class="page-header-title">
+                                            <h5 class="m-b-10">HTML</h5>
+                                            <p class="m-b-0">HTML</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Page-header end -->
+                        <div class="pcoded-inner-content">
+                            <!-- Main-body start -->
+                            <div class="main-body">
+                                <div class="page-wrapper">
+                                   <!-- Page body start -->
+								   <!-- YEJIN: explanation card start -->
+                                    <div class="page-body">
+									<h3 align ="center"> Welcome to HTML page!</h3>
+									<p class ="middleTittle" align="center"> This page helps you gain knowledge before taking the HTML quiz.<br>
+									 Please read this page carefully before taking the quiz, and all the quiz questions will be given in this page. </p><br>
+									  <!--Index anchor-->
+									     <div style = "margin: auto;" id ="card0">
+                                            <div class="card">
+                                                <div class="card-header">
+                                                    <h5>HTML Index</h5>  
+                                                </div>
+                                                <div class="card-block">
+													<a href ="#card0">0. Index</a><br>
+													<a href ="#card1">1. Main HTML elements</a><br>
+													<a href ="#card2">2. META element</a><br>
+													<a href ="#card3">3. Content Heading Tags </a><br>
+													<a href ="#card4">4. Content Header Tags with Attributes</a><br>
+													<a href ="#card5">5. Paragraph Tag</a><br>
+													<a href ="#card6">6. Comments Tag </a><br>
+													<a href ="#card7">7. Line break Tag </a><br>
+													<a href ="#card8">8. Horizontal Rule Tag</a><br>
+													<a href ="#card9">9. List Tags</a><br>
+													<a href ="#card10">10. Table, Row, Data Tags</a><br>
+													<a href ="#card11">11. Table Attributes</a><br>
+													<a href ="#card12">12. Cell Merge Attributes</a><br>
+													<a href ="#card13">13. Block Tags</a><br>
+													<a href ="#card14">14. Hyperlink Tags</a><br>
+													<a href ="#card15">15. Link to Another Document</a><br>
+													<a href ="#card16">16. e-mail sender</a><br>
+													<a href ="#card17">17. Image Tag</a><br>
+													<a href ="#card18">18. Form Tag</a><br>
+													<a href ="#card19">19. Sending Data</a><br>
+													<a href ="#card20">20. Input Tag </a><br>
+													<a href ="#card21">21. Text Controls</a><br>
+													<a href ="#card22">22. Push Buttons</a><br>
+													<a href ="#card23">23. Buttons for Choices</a><br>
+													<a href ="#card24">24. Lists for Selection</a><br>
+													<a href ="#card25">25. Other Controls</a><br>
+													<a href ="#card26">26. CSS ( cascading style sheets )</a><br>
+													<a href ="#card27">27. CSS syntax</a><br>
+													<a href ="#card28">28. placement of style sheets </a><br>
+													<a href ="#card29">29. Group style</a><br>
+													<a href ="#card30">30. Background color </a><br>
+													<a href ="#card31">31. css text</a><br>
+													<a href ="#card32">32. ID selector </a><br>
+													<a href ="#card33">33. class selector </a><br>
+													<a href ="#card34">34. class selector vs id selector</a><br>
+													<a href ="#card35">35. Why id selectors?</a><br>
+													<a href ="#card36">36. External style sheet</a><br>
+													<a href ="#card37">37. link </a><br>
+													<a href ="#card38">38. import </a><br>
+													<a href ="#card39">39. html tags ? span / div</a><br>
+													<a href ="#card40">40. html document tree</a><br>
+													<a href ="#card41">41. formatting elelments</a><br>
+													<a href ="#card42">42. float property </a><br>
+													<a href ="#card43">43. css display </a><br>
+													<a href ="#card44">44. more selector</a><br>
+													<a href ="#card45">45. pseudo-elements </a><br>
+													<a href ="#card46">46. css media</a><br>
+													<a href ="#card47">47. Which style to apply?</a><br>
+												</div>
+											</div>
+										</div>
+									</div>
+											<!--Start contnet-->
+									<div style= "margin: auto;" id ="card1">
+										<div class="card">
+											<div class="card-header">
+												<h5>1. Main HTML elements</h5>  
+											</div>
+											<div class="card-block">
+												<xmp>① &lt;!DOCTYPE&gt;
+② &lt;HTML&gt; &lt;/HTML&gt;
+③ &lt;HEAD&gt; &lt;/HEAD&gt; : 딸린 요소들이 많다.
+ex)　&lt;title&gt; &lt;/title&gt;, &lt;meta&gt;
+④ &lt;BODY&gt; &lt;/BODY&gt; : 많은 특성을 가지고 있다.
+ex) bgcolor , background , text , link etc.</xmp>
+											</div>
+										</div>
+									</div>
+									<div style = "margin: auto;" id ="card2">
+										<div class="card">
+											<div class="card-header">
+												<h5>2. META element</h5>
+											</div>
+											<div class="card-block">
+												<xmp>① &lt;HEAD&gt; 안에 넣어준다.
+② 페이지 이외의 더 필요한 추가 정보를 의미한다.
+ex) &lt;META NAME="author" CONTENT=“John Doe&gt;</xmp>
+											</div>
+										</div>
+									</div>
+									<div style = "margin: auto;" id ="card3">
+										<div class="card">
+											<div class="card-header">
+												<h5>3. Content Heading TagsTags</h5>  
+											</div>
+											<div class="card-block">
+												<xmp><h1></h1>, <h2></h2>, <h3></h3>, ..., <h5></h5>, <h6></h6>.
+<h1> is the largest and <h6> is the smallest.</xmp>
+											</div>
+										</div>
+									</div>
+									<div style = "margin: auto;" id ="card4">
+										<div class="card">
+											<div class="card-header">
+												<h5>4. Content Header Tags with Attributes</h5>
+											</div>
+											<div class="card-block">
+												<xmp>- align(정렬) : left , right , center 
+ex) <h2 ALIGN="CENTER"> Level-2 </H2></xmp>
+											</div>
+										</div>
+									</div>
+									<div style = "margin: auto;" id ="card5">
+										<div class="card">
+											<div class="card-header">
+												<h5>5. Paragraph Tag</h5>
+											</div>
+											<div class="card-block">
+												<xmp>① <p> </p> : 문장을 서주는 tag , 
+<p>가 있어야 attribute을 지정 가능하다.
+② 많은 space를 해도 하나만 인정하며 enter는 인정되지 않는다.</xmp>
+											</div>
+										</div>
+									</div>
+									<div style = "margin: auto;" id ="card6">
+										<div class="card">
+											<div class="card-header">
+												<h5>6. Comments Tag </h5>
+											</div>
+											<div class="card-block">
+												<xmp>① 웹페이지에서는 무시된다.
+② 작성한 코드를 쉽게 이해하기 위해 사용한다.
+</xmp>
+											</div>
+										</div>
+									</div>
+									<div  style = "margin: auto;" id ="card7">
+										<div class="card">
+											<div class="card-header">
+												<h5>7. Line break Tag : &lt;br&gt;</h5>
+											</div>
+											<div class="card-block">
+												<xmp>Enter의 기능을 한다.</xmp>
+											</div>
+										</div>
+									</div>
+									<div style = "margin: auto;" id ="card8">
+										<div class="card">
+											<div class="card-header">
+												<h5>8. Horizontal Rule Tag : &lt;hr&gt;</h5>
+											</div>
+											<div class="card-block">
+												<xmp> 횡으로 한 줄을 그어준다</xmp>
+											</div>
+										</div>
+									</div>
+									<div style = "margin: auto;" id ="card9">
+										<div class="card">
+											<div class="card-header">
+												<h5>9. List Tags</h5>
+											</div>
+											<div class="card-block">
+												<xmp>① unordered:정해지지 않은 리스트이며 품목 앞에 · 이 나온다.
+ex) <ul> // 정해지지 않은 리스트를 위한 tag이다.
+<li>apple</li> // <li>는 품목을 쓰기 위한 tag이다.
+<li>fish</li> 
+<li>butter</li> 
+</ul>
+
+② ordered:정해진 리스트이며 품목 앞에 번호가 나온다.
+ex) <ol> // 정해진 리스트를 쓰기 위한 tag이다.
+<li>apple</li> 
+<li>fish</li> 
+<li>butter</li> 
+</ol>
+③ Definition:항목에 대한 설명을 하고자 할 때 사용한다, <dl> </dl>
+ex) <dl> 
+<dt>HTML</dt> 
+<dd>HyperText Mark-up Language</dd> // 설명을 하는 tag
+<dt>CSS</dt> // 용어를 tag
+<dd>Cascading Style Sheet</dd> 
+</dl>
+</xmp>
+											</div>
+										</div>
+									</div>
+									<div style = "margin: auto;" id ="card10">
+										<div class="card">
+											<div class="card-header">
+												<h5>10. Table, Row, Data Tags</h5>
+											</div>
+											<div class="card-block">
+												<xmp>① <table> </table> : 표를 만들어준다
+- <caption> </caption> : 표의 이름
+- <th> </th> : Name에 해당하는 이름이 Jones , Smith 일 때 
+Name을 두껍게 표시
+② <tr> </tr> : 한 줄을 의미한다→
+③ <td> </td> : 한 줄에 들어가는 데이터 내용을 의미한다.
+-↓열에 해당하는 tag가 없는 이유는 <tr>을 쓰면서 해결되기 때문이다.
+</xmp>
+											</div>
+										</div>
+									</div>
+									<div style = "margin: auto;" id ="card11">
+										<div class="card">
+											<div class="card-header">
+												<h5>11. Table Attributes</h5>
+											</div>
+											<div class="card-block">
+												<xmp>① border : 표의 두께를 설정한다.
+② cell padding : 하나의 셀과 내용 사이의 공간이다.
+③ cell spacing : 셀과 셀 사이의 공간이다.
+</xmp>
+											</div>
+										</div>
+									</div>
+									<div style = "margin: auto;" id ="card12">
+										<div class="card">
+											<div class="card-header">
+												<h5>12. Cell Merge Attributes</h5>
+											</div>
+											<div class="card-block">
+												<xmp>① rowspan : 아래로 두 칸을 합친다.
+② colspan : 옆으로 두 칸을 합친다.
+</xmp>
+											</div>
+										</div>
+									</div>
+									<div style = "margin: auto;" id ="card13">
+										<div class="card">
+											<div class="card-header">
+												<h5>13. Block Tags</h5>
+											</div>
+											<div class="card-block">
+												<xmp>① block quotation : <blockquote> </blockquote> 
+// 인용한 문구를 쓰기 위한 tag이다. 
+② Address : <address> </address> 
+③ Pre?formatted text :　<pre> </pre> 
+// 폰트, 글씨 크기 등 미리 정의를 해놓고 만든다.
+</xmp>
+											</div>
+										</div>
+									</div>
+									<div style = "margin: auto;" id ="card14">
+										<div class="card">
+											<div class="card-header">
+												<h5>14. Hyperlink Tags</h5>
+											</div>
+											<div class="card-block">
+												<xmp>① Anchor tag : <a> </a> // 내 위치가 어디인지 알려준다.
+② Attribute href 
+ex)<a href="Gachon Universityhttp://www.gachon.ac.kr">Gachon</a> 
+// 특정 링크의 주소를 가져온다.
+③ Attribute target : 링크를 어디서 열지 정한다.
+_blank : 새로운 창
+_self : 원래 자신의 창
+_parent : 전체화면
+_top : 맨 위의 window
+_framename : 이름 지어진 frame
+</xmp>
+											</div>
+										</div>
+									</div>
+									<div style = "margin: auto;" id ="card15">
+										<div class="card">
+											<div class="card-header">
+												<h5>15. Link to Another Document</h5>
+											</div>
+											<div class="card-block">
+												<xmp>① absolute link : 절대적인 주소로써 주소의 full url을 입력한다.
+② relative link : 상대적인 주소로써 파일 name을 작성한다
+(같은 폴더 내에서 파일을 찾는다.)
+</xmp>
+											</div>
+										</div>
+									</div>
+									<div style = "margin: auto;" id ="card16">
+										<div class="card">
+											<div class="card-header">
+												<h5>16. e-mail sender</h5>
+											</div>
+											<div class="card-block">
+												<xmp>ex) <p>contact 
+<a href="help deskmailto:helpdesk@gachon.ac.kr">help desk</a>. 
+</p>
+</xmp>
+											</div>
+										</div>
+									</div>
+									<div style = "margin: auto;" id ="card17">
+										<div class="card">
+											<div class="card-header">
+												<h5>17. Image Tag</h5>
+											</div>
+											<div class="card-block">
+												<xmp>① <img> : 이미지를 웹페이지에서 보여준다.
+② attributes
+- src : 어떤 파일인지 경로를 쓴다.
+- alt :　사진이 없을 때 대체할 어떤 link 또는 파일명을 적어준다.
+- height , width : 사진의 가로 , 세로 길이를 지정한다.
+</xmp>
+											</div>
+										</div>
+									</div>
+									<div style = "margin: auto;" id ="card18">
+										<div class="card">
+											<div class="card-header">
+												<h5>18. Form Tag</h5>
+											</div>
+											<div class="card-block">
+												<xmp>① attributes
+- action :　데이터가 어디로 갈 것인지 정한다.
+- method : 어떤 방식으로 보낼 것인지 정한다.
+- autocomplete : 자동완성의 기능
+- enctype
+- name , target , accept ? charset
+</xmp>
+											</div>
+										</div>
+									</div>
+									<div style = "margin: auto;" id ="card19">
+										<div class="card">
+											<div class="card-header">
+												<h5>19. Sending Data</h5>
+											</div>
+											<div class="card-block">
+												<xmp>① get : 내 눈에 보인다
+② post : 내 눈에 보이지 않는다.
+</xmp>
+											</div>
+										</div>
+									</div>
+									<div style = "margin: auto;" id ="card20">
+										<div class="card">
+											<div class="card-header">
+												<h5>20. Input Tag : <br>
+												&lt;input type=“typefield”name=“name”&gt;</h5>
+											</div>
+											<div class="card-block">
+												<xmp>① attributes
+- type: the type of an input element
+- name: the name for an input element
+- size: the width of an input field
+- maxlength: the maximum length of an input field 
+// 내가 칠 수 있는 최대 글자 수
+- value: the value of an input element 
+// 사용자가 넣는 값 혹은 이미 지정된 값
+</xmp>
+											</div>
+										</div>
+									</div>
+									<div style = "margin: auto;" id ="card21">
+										<div class="card">
+											<div class="card-header">
+												<h5>21. Text Controls</h5>
+											</div>
+											<div class="card-block">
+												<xmp>① Text field : <input type=“text” name=“textid” …> 
+② Password field : <input type=“password” name=“textpwd” …>
+③ Multi?line text area 
+: <textareaname=“…” rows=“…” cols=“…”> … </textarea> 
+</xmp>
+											</div>
+										</div>
+									</div>
+									<div style = "margin: auto;" id ="card22">
+										<div class="card">
+											<div class="card-header">
+												<h5>22. Push Buttons</h5>
+											</div>
+											<div class="card-block">
+												<xmp>① Buttons : <input type=“button” value =“button  name”> 
+② Submit Buttons : <input type=“submit” …> 
+③ Reset Buttons : <input type=“reset” …> 
+// 데이터를 지우는 버튼
+</xmp>
+											</div>
+										</div>
+									</div>
+									<div style = "margin: auto;" id ="card23">
+										<div class="card">
+											<div class="card-header">
+												<h5>23. Buttons for Choices</h5>
+											</div>
+											<div class="card-block">
+												<xmp>① Check box (on/off button) : 
+<input type=“checkbox” name=“…”>
+- cheked를 입력하면 이미 check가 된 상채로 나온다.
+② Radio button (alternative button) : 
+<input type=“radio” name=“…” value=“…”> 
+- 같은 그룹안에 있는 radio buttons는 같은 name이어야 한다.
+</xmp>
+											</div>
+										</div>
+									</div>
+									<div style = "margin: auto;" id ="card24">
+										<div class="card">
+											<div class="card-header">
+												<h5>24. Lists for Selection</h5>
+											</div>
+											<div class="card-block">
+												<xmp>① Combo box : 화살표를 누르면 내용이 펼쳐진다
+② List box : 펼쳐진 상태기 때문에 크기(size)를 지정해주어야 한다.
+</xmp>
+											</div>
+										</div>
+									</div>
+									<div style = "margin: auto;" id ="card25">
+										<div class="card">
+											<div class="card-header">
+												<h5>25. Other Controls</h5>
+											</div>
+											<div class="card-block">
+												<xmp>- File upload control : <input type=“file” name=”filename”>
+- Hidden fields : 
+<input type=“hidden” name=“userid” value=“hiddenVal”>
+</xmp>
+											</div>
+										</div>
+									</div>
+									<div style = "margin: auto;" id ="card26">
+										<div class="card">
+											<div class="card-header">
+												<h5>26. CSS ( cascading style sheets )</h5>
+											</div>
+											<div class="card-block">
+												<xmp>- CSS defines how to display the HTML elements
+ex ) 1. 가천대학교
+가 ) IT대학
+ 1 ) 소프트웨어학과
+2. 동서울대학교
+가 ) 공과대학
+  1 ) 컴퓨터공학과
+한글이 개요에 의해서 스타일 지정하듯 CSS는 HTML에서 style을 편집
+ex ) h1 { color : red; }
+</xmp>
+											</div>
+										</div>
+									</div>
+									<div style = "margin: auto;" id ="card27">
+										<div class="card">
+											<div class="card-header">
+												<h5>27. CSS syntax</h5>
+											</div>
+											<div class="card-block">
+												<xmp>① selector 와 declaration을 포함
+② declaration은 property(attribute)를 적는다.
+ex ) color , font-style
+③ ended by a semicolon(;)
+</xmp>
+											</div>
+										</div>
+									</div>
+									<div style = "margin: auto;" id ="card28">
+										<div class="card">
+											<div class="card-header">
+												<h5>28. placement of style sheets ( 3가지 방법 )</h5>
+											</div>
+											<div class="card-block">
+												<xmp>① INTERNAL : 내용과 상관없이 문서의 속성을 좌우한다. 
+(head 안에 들어간다)
+ex)<head>...<style type=“text/css”>styel here</style>...</head>
+② EXTERNAL:확장자를 .css로 저장 후 link를 이용해 style 불러온다.
+ex)<link rel=“stylesheet”type=“text/css” href=“style1.css”>
+③ INLINE : <p> tag를 사용하여 해당하는 문장만을 바꿔준다.
+ex)<p style=“color : gray”>This text will be gray.</p>
+</xmp>
+											</div>
+										</div>
+									</div>
+									<div style = "margin: auto;" id ="card29">
+										<div class="card">
+											<div class="card-header">
+												<h5>29. Group style</h5>
+											</div>
+											<div class="card-block">
+												<xmp>① Group selectors
+ex ) h1 {color: red;} h2 {color: red;} → h1,h2 {color: red;}
+② Group declaration ( 따로 되어 있는 {}들을 하나에 묶어서 표시 )
+ex ) h2 { font-style : italic; }
+ex ) h2 { background-color : silver; }
+</xmp>
+											</div>
+										</div>
+									</div>
+									<div style = "margin: auto;" id ="card30">
+										<div class="card">
+											<div class="card-header">
+												<h5>30. Background color <br>(흰색 배경이 기본이다 )</h5>
+											</div>
+											<div class="card-block">
+												<xmp>① can be specified by: Name(red)/ RGB(rgb(255,0,0))/ Hex(#ff0000)
+② background color of a page is defined in the body selector
+ex)body { background-color: #b0c4de; }
+ex)black , blue , green , gray , purple , red, white , yellow etc.
+- RGB ( red + green + blue combination )
+: the lowest and the highest values are 0(hex #00) 
+and 255(hex #FF) for each channel
+ex)black ( #000000 ) , blue ( #0000FF )
+
+</xmp>
+											</div>
+										</div>
+									</div>
+									<div style = "margin: auto;" id ="card31">
+										<div class="card">
+											<div class="card-header">
+												<h5>31. css text</h5>
+											</div>
+											<div class="card-block">
+												<xmp>① text-alignment
+- value : left / center / right / justify
+ex ) h1 { text?alignment : center; } 
+② text-decoration
+- value : none / overline / line ? through / underline
+ex ) h1 { text?decoration } → This is heading 1.
+③ text-color
+④ text-identation 
+( Specifies the indentation of the first line of a text )
+ex ) p { text-indent: 50px; }
+</xmp>
+											</div>
+										</div>
+									</div>
+									<div style = "margin: auto;" id ="card32">
+										<div class="card">
+											<div class="card-header">
+												<h5>32. ID selector <br>( 선택된 요소들의 스타일을 적용해준다 )</h5>
+											</div>
+											<div class="card-block">
+												<xmp>*특정 form에서 form에게 id를 줄 때 name지정
+- id는 html안에 단 하나만 존재한다. 
+( name 대신 id = “name”으로 지정한다 )
+- “ ”안의 id name은 대소문자를 구별한다.
+- #을 이용하여 multiple style 지정
+</xmp>
+											</div>
+										</div>
+									</div>
+									<div style = "margin: auto;" id ="card33">
+										<div class="card">
+											<div class="card-header">
+												<h5>33. class selector</h5>
+											</div>
+											<div class="card-block">
+												<xmp>- 내가 어떤 group을 한꺼번에 바꿔주고 싶을 때 사용한다.
+- class = “name”으로 지정한다.
+- .을 이용하여 style 지정
+</xmp>
+											</div>
+										</div>
+									</div>
+									<div style = "margin: auto;" id ="card34">
+										<div class="card">
+											<div class="card-header">
+												<h5>34. class selector vs id selector</h5>
+											</div>
+											<div class="card-block">
+												<xmp><differences>
+① class
+- not unique
+- 여러 요소에 같은 class를 사용할 수 있다.
+② id
+- unique
+- 단 하나의 id만을 가진다.
+</xmp>
+											</div>
+										</div>
+									</div>
+									<div style = "margin: auto;" id ="card35">
+										<div class="card">
+											<div class="card-header">
+												<h5>35. Why id selectors?</h5>
+											</div>
+											<div class="card-block">
+												<xmp>- id는 class보다 많은 것들을 가진다.
+- id는 link에서 anchors와 같은 역할을 한다.
+</xmp>
+											</div>
+										</div>
+									</div>
+									<div style = "margin: auto;" id ="card36">
+										<div class="card">
+											<div class="card-header">
+												<h5>36. External style sheet</h5>
+											</div>
+											<div class="card-block">
+												<xmp>- 확장자는 css이다.
+- content와 presentation을 따로 저장하기 위해 사용한다.
+- link / import를 통해 불러온다.
+</xmp>
+											</div>
+										</div>
+									</div>
+									<div style = "margin: auto;" id ="card37">
+										<div class="card">
+											<div class="card-header">
+												<h5>37. link ( internal style 위에 존재한다 ) </h5>
+											</div>
+											<div class="card-block">
+												<xmp>ex ) <link rel="stylesheet" type="text/css" href="mystyle.css"> 
+<style type="text/css"> // internal CSS 
+h3 { font-style: italic; } 
+</style>
+</xmp>
+											</div>
+										</div>
+									</div>
+									<div style = "margin: auto;" id ="card38">
+										<div class="card">
+											<div class="card-header">
+												<h5>38. import ( style 안에 넣는다 ) </h5>
+											</div>
+											<div class="card-block">
+												<xmp>ex ) <style type="text/css">
+@import url("mystyle.css"); // external CSS 
+h3 { font-style: italic; }
+</style>
+</xmp>
+											</div>
+										</div>
+									</div>
+									<div style = "margin: auto;" id ="card39">
+										<div class="card">
+											<div class="card-header">
+												<h5>39. html tags - span / div</h5>
+											</div>
+											<div class="card-block">
+												<xmp>① <span>tag: 어떤 한 줄에서의 일부분을 그룹으로 만들고 싶을 때
+- <span> </span> 사이가 한 그룹으로 묶인다.
+② <div>tag: span이 문장의 일부를 묶어주면 div는 영역을 묶어준다.
+* <div> tag는 나누기 나름이다.
+</xmp>
+											</div>
+										</div>
+									</div>
+									<div style = "margin: auto;" id ="card40">
+										<div class="card">
+											<div class="card-header">
+												<h5>40. html document tree</h5>
+											</div>
+											<div class="card-block">
+												<xmp>-inheritance (유전)
+* 어미새가 아기새를 감싸고 있듯이 nested, 
+즉 감싸고 있으면 안에도 내용이 바뀐다.
+</xmp>
+											</div>
+										</div>
+									</div>
+									<div style = "margin: auto;" id ="card41">
+										<div class="card">
+											<div class="card-header">
+												<h5>41. formatting elelments</h5>
+											</div>
+											<div class="card-block">
+												<xmp>① text properties
+- text align(정렬 방식)
+- text decoration(underline / overline / line-through)
+- text transform(Capitalize / UPPERCASE / lowercase) 
+② font property : {}안에 한번에 적어주어도 상관없다.
+* font size and font family are required
+* size는 통상적으로 픽셀을 많이 쓴다.
+③ Width & height
+＊설정하지 않는 한 auto(알아서 커지고 작아지고)로 지정되어 있다. 
+④ padding
+* 오 아래 왼 위 순서로 적는다.
+⑤ margin
+* 오 아래 왼 위 순서로 적는다.
+⑥ border
+* width 또한 오 아래 왼 위 순서로 적는다.
+⑦ background
+</xmp>
+											</div>
+										</div>
+									</div>
+									<div style = "margin: auto;" id ="card42">
+										<div class="card">
+											<div class="card-header">
+												<h5>42. float property</h5>
+											</div>
+											<div class="card-block">
+												<xmp>- often used for images
+- values : none , left , right
+</xmp>
+											</div>
+										</div>
+									</div>
+									<div style = "margin: auto;" id ="card43">
+										<div class="card">
+											<div class="card-header">
+												<h5>43. css display </h5>
+											</div>
+											<div class="card-block">
+												<xmp>① block element : line break가 포함되어 있으며 알아서 아래로 글자가 나와
+② inline element : line break가 없어서 떨어지지 않고 나온다
+</xmp>
+											</div>
+										</div>
+									</div>
+									<div style = "margin: auto;" id ="card44">
+										<div class="card">
+											<div class="card-header">
+												<h5>44. more selector</h5>
+											</div>
+											<div class="card-block">
+												<xmp>① universial selector
+*.warning는 .warning 이름을 가진 모든 class를 다 데려와
+*#sid는 #sid 이름을 가진 모든 id를 가져와
+②combination of simple selextors
+- descendent selectors
+:‘나’를 기준으로 나에게 속해있는 아이들
+:“a b”는 a에 속해있는 b라는 뜻
+- pseudo classes ( pseudo = 가짜 , 유사한 ) 
+: class는 아니지만 class와 유사하다.
+: element에 특별한 상태를 정의할 때 사용한다.
+: first-child pseudo-class
+</xmp>
+											</div>
+										</div>
+									</div>
+									<div style = "margin: auto;" id ="card45">
+										<div class="card">
+											<div class="card-header">
+												<h5>45. pseudo-elements ( 일부분을 정하고 싶을 때 : 첫 번째 글자 , 첫 번째 줄 )</h5>
+											</div>
+											<div class="card-block">
+												<xmp>① :first-line and :first-letter pseudo-elements 
+( 첫 번째 줄과 첫 번째 글자 )
+② Pseudo-class & Pseudo-element
+- 특정한 효과를 주기 위해 사용
+</xmp>
+											</div>
+										</div>
+									</div>
+									<div style = "margin: auto;" id ="card46">
+										<div class="card">
+											<div class="card-header">
+												<h5>46. css media</h5>
+											</div>
+											<div class="card-block">
+												<xmp>① css media types( css가 지원하는 media )
+② @media rules
+@media print 
+{ 
+p { font-size: 20px; color: red; 
+}
+</xmp>
+											</div>
+										</div>
+									</div>
+									<div style = "margin: auto;" id ="card47">
+										<div class="card">
+											<div class="card-header">
+												<h5>47. Which style to apply?</h5>
+											</div>
+											<div class="card-block">
+												<xmp>< cascading rule >
+① weight
+: Declarations marked as important carry more weight than unmarked 
+ones
+② specificity
+: id is more specific than class
+: class is more specific than element
+③ order 
+: If two declarations are otherwise equal, the later declaration 
+applies
+</xmp>
+											</div>
+										</div>
+									</div>
+                                    <!-- Page body end -->
+									<!-- YEJIN: explanation card end -->
+                                </div>
+                            </div>
+                            <!-- Main-body end -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<!-- Required Jquery -->
+    <script type="text/javascript" src="../assets/js/jquery/jquery.min.js "></script>
+    <script type="text/javascript" src="../assets/js/jquery-ui/jquery-ui.min.js "></script>
+    <!-- jquery slimscroll js -->
+    <script type="text/javascript" src="../assets/js/jquery-slimscroll/jquery.slimscroll.js"></script>
+
+    <!-- Custom js -->
+    <script src="../assets/js/pcoded.min.js"></script>
+    <script src="../assets/js/vertical/vertical-layout.min.js"></script>
+    <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script type="text/javascript" src="../assets/js/script.js"></script>
+</body>
+
+</html>
